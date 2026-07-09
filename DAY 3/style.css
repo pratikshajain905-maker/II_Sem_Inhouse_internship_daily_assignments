@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f8f9fa;
+}
+
+/* Hero Section */
+.hero{
+    background:linear-gradient(to right,#0d6efd,#6610f2);
+    color:#11151a;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+/* Headings */
+h2{
+    color:#890a4a;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+/* Cards */
+.card{
+    transition:0.3s;
+    border:none;
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    height:200px;
+    object-fit:cover;
+}
+
+/* Team */
+.team img{
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.team h4{
+    margin-top:10px;
+    color:#8505af;
+}
+
+/* Contact Form */
+form{
+    background:rgb(20, 14, 206);
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-control{
+    margin-top:15px;
+}
+
+/* Buttons */
+.btn-primary{
+    background:#ae0c1c;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#09b578;
+}
+
+/* Footer */
+footer{
+    background:#83130992;
+    color:rgb(157, 17, 124);
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
